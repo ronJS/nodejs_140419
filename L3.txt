@@ -1,0 +1,11 @@
+=.=.=.=.=.=.=.=.=.=.=.=.=.=.=< L 3>=.=.=.=.=.=.=
+
+課程使用browse base 的 koding    koding.com
+
+
+socket.io  (configure .  設定不同協定方式)
+
+Opensource... ...
+
+介紹Koding..
+

@@ -1,0 +1,25 @@
+=.=.=.=.=.=.=.=.=.=.=.=.=.=.=< L 1>=.=.=.=.=.=.=
+
+講師經歷.. -- (順便介紹webs)
+
+responsive design CIOK
+
+request 因為使用者體驗 增加.. -->困擾..
+
+Compound.js
+
+Meteor (.js) 一份js code 處理完前後端...
+
+SocketStream ( op.t..)
+
+FireBase ....
+
+Qbon.. (tw 地區)
+
+javascript.tw
+
+RGBA 網路設計師聚會
+
+F2E 台灣
+
+node.js 上面那本電子書正在rework ... 難怪查不到??

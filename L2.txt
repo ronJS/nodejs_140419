@@ -1,0 +1,27 @@
+=.=.=.=.=.=.=.=.=.=.=.=.=.=.=< L 2>=.=.=.=.=.=.=
+
+cammand line
+github
+javascript
+maybe some server side km
+
+跨平台..
+
+為什麼能解決 CISK
+
+modules...
+
+commonjs --> 規範標準.. ( www.commonjs.org)
+
+npm
+
+-g ---> 通常是有cammand line 的module 來做..
+
+node js 可以去做一些Batch, Shell 的事情
+
+package.json -- > 最好每次都建立..
+
+========= 休息時間===
+
+
+

@@ -1,0 +1,94 @@
+啟動koding 的terminal
+
+測試
+
+安裝sails   (sudo npm install -g sails)
+
+建立 server0419.js
+
+vm-0:~$ cd web/                                                                                                                                          
+bash: cd: web/: No such file or directory
+vm-0:~$ cd web
+bash: cd: web: No such file or directory
+@vm-0:~$ cd Web
+vm-0:~/Web$ node server0419.js
+hello world!
+
+
+接下來建立一個簡單的server 
+
+  createServer   (port 1337)  
+  
+1. 測試hello World
+  
+2.將一個index.html 顯示在網站上
+var http = require("http");
+var port = 1337;
+
+var fs = require("fs");
+ 
+http.createServer(function (req, res) {
+    fs.readFile("./index.html",function(err,data){});
+    res.end(data);
+  //fs.readFile("./index.html",function(err,data){
+//    res.end(data);
+//  });
+  
+ 
+}).listen(port);
+ 
+console.log("Start server port is " + port );
+
+3. 第二項會出現錯誤...  data not define
+
+4. 調整後 ok..!
+var http = require("http");
+var port = 1337;
+
+var fs = require("fs");
+ 
+http.createServer(function (req, res) {
+
+  fs.readFile("./index.html",function(err,data){
+      res.end(data);
+  });
+  
+ 
+}).listen(port);
+ 
+console.log("Start server port is " + port );
+
+
+LAMP -- > MEAN
+
+
+sails generate user
+
+.kd.io:1337/user   (有東西噎)
+
+kd.io:1337/user/create?name=A
+kd.io:1337/user/update/1/?name=JJ
+
+# Backbone Conventions
+  GET   :    /:controller            => findAll()
+  GET   :    /:controller/read/:id        => find(id)
+  POST  :    /:controller/create        => create()
+  POST  :    /:controller/create/:id        => create(id)
+  PUT   :    /:controller/update/:id        => update(id)
+  DELETE:    /:controller/destroy/:id    => destroy(id)
+
+# You can also explicitly state the action
+GET   :    /:controller/find        => findAll()
+GET   :    /:controller/find/:id        => find(id)
+POST  :    /:controller/create        => create(id)
+PUT   :    /:controller/update/:id        => update(id)
+DELETE:    /:controller/destroy/:id    => destroy(id)
+
+實做一個message 聊天室
+
+sails generate message
+
+利用demo的 index.ejs 進行聊天室框口變更
+
+https://gist.github.com/clonn/11074265
+
